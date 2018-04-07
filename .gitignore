@@ -259,3 +259,11 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Ignore XSD Files (possible copyright issues!)
+src/Trias.DataService/v1_1/xsd/*.xsd
+src/Trias.DataService/v1_1/xsd/*.wsdl
+src/Trias.DataService/v1_1/xsd/siri-1.4/**
+src/Trias.DataService/v1_2/xsd/*.xsd
+src/Trias.DataService/v1_2/xsd/*.wsdl
+src/Trias.DataService/v1_2/xsd/siri-1.4/**
